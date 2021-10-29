@@ -13,6 +13,9 @@ service.interceptors.request.use(
     },
     error => {
         console.log(error);
+
+
+        console.log(121232)
         return Promise.reject();
     }
 );
